@@ -3,8 +3,8 @@
 local transformer_model = std.extVar("TRANSFORMER_MODEL");
 
 // This will be used to set the max/min # of tokens in the positive and negative examples.
-local max_length = 512;
-local min_length = 32;
+local max_length = 8;
+local min_length = 1;
 
 {
     "vocabulary": {
